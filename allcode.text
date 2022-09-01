@@ -1,0 +1,180 @@
+//GIT command
+code .
+open vscode
+
+ls
+show list of folder
+
+pwd
+show path
+
+ls -lart
+show hide folder
+
+
+git status
+it shows in which folder we work
+
+
+git commit
+then press i then intial commit
+then esc button then :wq
+
+touch name.html 
+or etc this command creates empty file
+
+git add -A
+to track all the file to go into staging area
+
+git commit -m "Added more html"
+to remove the problem on git commit
+
+clear
+to clear the terminal
+
+git checkout index.html
+or anything this helps us to recover the file from previous commit
+
+git checkout -f
+to recover all file to previous commit
+
+git log
+what we commit
+
+git log -p -1
+to show one commit or manycommit by changing 1 into number and q to exit
+
+git diff
+comparing it in working directory and stagging area
+
+git diff --staged
+compare staging area into last commit
+
+ls
+list out folder linux command
+
+pwd
+show the folder where you work
+
+git commit -a -m
+both command will execute
+
+git rm --cached waste.html
+delete a file from commit area
+
+git rm waste.html
+remove the file totally
+
+git status -s
+it shows all modified file when change occurs in file
+
+git show
+to show what changes we done
+
+touch .gitignore
+to create a gitignore file
+
+/file
+ignore only in that file ignore not in every place
+
+*.log 
+means all file which in .log extension ignore
+
+foldername/
+to ignore a folder
+
+git branch feature1
+to create a branch
+
+git checkout feature1
+to switch the branch
+
+git checkout master
+to switch master branch
+
+git merge feature1
+to merge the file into master
+
+ git branch
+ show you all the branch
+
+ git checkout -b branchname
+ create a branch and switched to that branch
+
+ git delete -d branchname
+ to delete a branch first go to the master branch then delete the branch
+
+ git reset --hard HEAD^
+ the latest commit undo
+
+ git reset --soft id
+ commit remove but the last modification we get
+ id we get from terminal like commit rt5rygui7767iu998990ghjghg
+
+ git restore --staged index.html
+ all your commit remove go to its initial state
+
+git pull
+
+git push
+push your local(our code) files to remote(main code)
+
+
+[//to upload a project to git hub 
+
+open the folder you want to push
+open git bash or vscode
+copy the address from the navbar
+then cd "address"
+touch .gitignore
+git config --global user.name "Purnendu mishra"
+git config --global user.email "purnendumishra129th@gamil.com"
+git init
+git add .
+git commit -m "some message"
+git status
+{ssh-keygen -t ed25519 -C "your_email@example.com"
+/c/Users/Lenovo/.ssh/id_ed25519.pub
+cat
+git remote add origin <paste the ssh key of the repo when it first generated not the ssh key of the acount later you get in code^>
+for 1st intialization in private repo}
+//git push origin master
+if the branch is master
+//git push origin main 
+if the branch is main]
+
+
+
+
+
+
+
+to update a project 
+
+git add.
+git commit -m
+git push origin master
+
+//rm -f .git/index.lock
+run to stop running process in git
+//git remote set-url origin git@github.com:ppreyer/first_app.git
+to update the remote url
+
+
+//for open source
+fork
+clone to your profile
+open the folder where you want to store
+copy path 
+open git bash there
+cd "paste the path"
+git clone HTTP url not ssh
+
+
+
+
+
+//for deployment create a repo and add local files in it
+//search for deployment of create react app
+//search github pages
+//follow the step
